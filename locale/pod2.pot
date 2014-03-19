@@ -1,0 +1,80 @@
+#: pod2.pl:62
+msgid "Usage: pod2[man|html|text|latex] [-i inputfile|-o outputfile|-d date|-c header|-r version|-h] [--man|--i18n]\n"
+msgstr ""
+
+#: pod2.pl:63 pod2.pl:62 pod2.pl:63
+msgid "\t-i inputfile - input file with POD data\n"
+msgstr ""
+
+#: pod2.pl:64 pod2.pl:63 pod2.pl:64
+msgid "\t-o outputfile - e.g. '-o pod2.1.gz', by default program write to 'basename.1.gz'\n"
+msgstr ""
+
+#: pod2.pl:65 pod2.pl:64 pod2.pl:65
+msgid "\t-d date - date of last modification\n"
+msgstr ""
+
+#: pod2.pl:66 pod2.pl:65 pod2.pl:66
+msgid "\t-c header - header of page\n"
+msgstr ""
+
+#: pod2.pl:67 pod2.pl:66 pod2.pl:67
+msgid "\t-r version - program's version \n"
+msgstr ""
+
+#: pod2.pl:68 pod2.pl:67 pod2.pl:68
+msgid "\t-h -print this help. For more read 'man 1 pod2'\n"
+msgstr ""
+
+#: pod2.pl:69 pod2.pl:68 pod2.pl:69
+msgid "\t--man - generates man page for pod2.pl\n"
+msgstr ""
+
+#: pod2.pl:70 pod2.pl:70
+msgid "\t--i18n - generates template pot file, which contains a list of all the translatable strings extracted from the sources, only for pod2.pl\n"
+msgstr ""
+
+#: pod2.pl:71 pod2.pl:70 pod2.pl:71
+msgid ""
+"\n"
+"At the beginning make a proper symlink to the program pod2.pl e.g.:\n"
+"$ ln -s pod2.pl pod2man.pl\n"
+msgstr ""
+
+#: pod2.pl:147 pod2.pl:146 pod2.pl:147
+msgid " not found in system"
+msgstr ""
+
+#: pod2.pl:147 pod2.pl:146 pod2.pl:147
+msgid "File "
+msgstr ""
+
+#: pod2.pl:151 pod2.pl:149 pod2.pl:151
+msgid "Input file isn't defined"
+msgstr ""
+
+#: pod2.pl:154 pod2.pl:152 pod2.pl:154
+msgid "I cann't use input file because it isn't readable"
+msgstr ""
+
+#: pod2.pl:157 pod2.pl:155 pod2.pl:157
+msgid "The name of running program must match to one of the following:\n"
+msgstr ""
+
+#: pod2.pl:159 pod2.pl:157 pod2.pl:159
+msgid ""
+"\n"
+"and may be ending extension .pl[x]?"
+msgstr ""
+
+#: pod2.pl:183 pod2.pl:181 pod2.pl:183
+msgid "Other programs have not yet implemented"
+msgstr ""
+
+#: pod2.pl:61 pod2.pl:62
+msgid "Usage: pod2[man|html|text|latex] -i [inputfile|-o outputfile|-d date|-c header|-r version|-h] --man|--i18n\n"
+msgstr ""
+
+#: pod2.pl:69 pod2.pl:70
+msgid "\t--i18n - generates template pot file, which contains a list of all the translatable strings extracted from the sources\n"
+msgstr ""

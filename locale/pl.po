@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pod2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-06-03 14:33+0100\n"
+"Last-Translator: Piotr Rogoża <rogoza.piotr@gmail.com>\n"
+"Language-Team: dracoRP\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: pod2.pl:62
+msgid "Usage: pod2[man|html|text|latex] [-i inputfile|-o outputfile|-d date|-c header|-r version|-h] [--man|--i18n]\n"
+msgstr "Użycie: pod2[man|html|text|latex] [-i plikwejściowy|-o plikwyjściowy|-d data|-c nagłówek|-r wersja|-h] [--man|--i18n]\n"
+
+#: pod2.pl:63
+#: pod2.pl:62
+msgid "\t-i inputfile - input file with POD data\n"
+msgstr "\t-i plikwejściowy - plik wejściowy z danymi POD\n"
+
+#: pod2.pl:64
+#: pod2.pl:63
+msgid "\t-o outputfile - e.g. '-o pod2.1.gz', by default program write to 'basename.1.gz'\n"
+msgstr "\t-o plikwyjściowy - np. '-o pod2.1.gz', domyślnie program zapisze do 'nazwabazowa.1.gz'\n"
+
+#: pod2.pl:65
+#: pod2.pl:64
+msgid "\t-d date - date of last modification\n"
+msgstr "\t-d data - data ostatniej modyfikacji\n"
+
+#: pod2.pl:66
+#: pod2.pl:65
+msgid "\t-c header - header of page\n"
+msgstr "\t-c nagłówek - nagłówek strony\n"
+
+#: pod2.pl:67
+#: pod2.pl:66
+msgid "\t-r version - program's version \n"
+msgstr "\t-r wersja - wersja programu \n"
+
+#: pod2.pl:68
+#: pod2.pl:67
+msgid "\t-h -print this help. For more read 'man 1 pod2'\n"
+msgstr "\t-h wyświetl tą pomoc. Po więcej czytaj 'man 1 pod2'\n"
+
+#: pod2.pl:69
+#: pod2.pl:68
+msgid "\t--man - generates man page for pod2.pl\n"
+msgstr "\t--man - generuje stronę man dla pod2.pl\n"
+
+#: pod2.pl:70
+msgid "\t--i18n - generates template pot file, which contains a list of all the translatable strings extracted from the sources, only for pod2.pl\n"
+msgstr "\t--i18n - generuje szablon pliku pot, który zawiera listę wszystkich do przetłumaczenia słów wyciągniętych ze źródłeł, tylko dla pod2.pl\n"
+
+#: pod2.pl:71
+#: pod2.pl:70
+msgid ""
+"\n"
+"At the beginning make a proper symlink to the program pod2.pl e.g.:\n"
+"$ ln -s pod2.pl pod2man.pl\n"
+msgstr ""
+"\n"
+"Na początku zrób właściwy symlink do programu pod2.pl np.:\n"
+"$ ln -s pod2.pl pod2man.pl\n"
+
+#: pod2.pl:147
+#: pod2.pl:146
+msgid " not found in system"
+msgstr " nie znaleziony w systemie"
+
+#: pod2.pl:147
+#: pod2.pl:146
+msgid "File "
+msgstr "Plik "
+
+#: pod2.pl:151
+#: pod2.pl:149
+msgid "Input file isn't defined"
+msgstr "Plik wejściowy nie zdefiniowany"
+
+#: pod2.pl:154
+#: pod2.pl:152
+msgid "I cann't use input file because it isn't readable"
+msgstr "Nie mogę użyć pliku wejściowego ponieważ nie jest do odczytu"
+
+#: pod2.pl:157
+#: pod2.pl:155
+msgid "The name of running program must match to one of the following:\n"
+msgstr "Nazwa uruchamianego programu musi pasować do jednego z poniższych:\n"
+
+#: pod2.pl:159
+#: pod2.pl:157
+msgid ""
+"\n"
+"and may be ending extension .pl[x]?"
+msgstr ""
+"\n"
+"i może się kończyć rozszerzeniem .pl[x]?"
+
+#: pod2.pl:183
+#: pod2.pl:181
+msgid "Other programs have not yet implemented"
+msgstr "Inne programy jeszcze nie zaimplementowane"
+
+#: pod2.pl:61
+#: pod2.pl:62
+msgid "Usage: pod2[man|html|text|latex] -i [inputfile|-o outputfile|-d date|-c header|-r version|-h] --man|--i18n\n"
+msgstr "Użycie: pod2[man|html|text|latex] -i [plikwejściowy|-o plikwyjściowy|-d data|-c nagłówek|-r wersja|-h] --man|--i18n\n"
+
+#: pod2.pl:69
+#: pod2.pl:70
+msgid "\t--i18n - generates template pot file, which contains a list of all the translatable strings extracted from the sources\n"
+msgstr "\t--i18n - generuje szablon pliku pot, który zawiera listę wszystkich do przetłumaczenia słów wyciągniętych ze źródła\n"
+
+#, fuzzy
+#~ msgid "\t-r version - set version \n"
+#~ msgstr "\t-r wersja - wersja programu \n"

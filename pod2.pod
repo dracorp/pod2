@@ -1,0 +1,80 @@
+
+=pod
+
+=encoding utf8
+
+=head1 NAZWA
+
+pod2 - konwertuje dane POD
+
+=head1 SKŁADNIA
+
+pod2* [opcje]
+
+=head1 OPCJE
+
+I<-i> L<plik wejściowy>
+ Plik wejściowy w którym zawarte są dane POD
+
+I<-o> L<plik wyjściowy>
+ Plik wyjściowy do którego zostaną zapisane wygenerowane dane. Jeśli nie zostanie podany to wynik zostanie zapisany do katalogu z plikiem źródłowym.
+
+I<-r> L<wersja>
+ Wersja programu
+
+I<-c> L<nagłówek>
+ Nagłówek strony
+
+I<-d> L<data>
+ Data ostatniej modyfikacji
+
+I<-h>
+ Wyświetla pomoc
+
+=head2 pod2.pl
+
+Opcje wewnętrzne tylko dla pod2.pl. Pliki wynikowe zapisywane są w katalogu w którym znajduje się pod2.pl za wyjątkiem "/usr*".
+
+I<--i18n>
+ Generuje plik .po który zawiera listę wszystkich wyrazów do przetłumaczenia wyciągniętych ze źródeł.
+
+I<--man>
+ Generuje dokumentację man dla pod2.pl.
+
+=head1 OPIS
+
+Na początku należy utowrzyć właściwy symlink do programu. Można to hurtem zrealizować:
+
+B<$ for cel in latex text html man; do ln -s pod2.pl pod2${cel}.pl; done>
+
+i wywołać właściwy program. Uruchomienie np. pod2man.pl z parametrami wywoła program pod2man i zapisze sformatowany *roff do pliku I<nazwa.1.gz>.
+Wymagane jest jedynie podanie pliku wejściowego, reszta jest opcjonalna.
+
+=head2 pod2man.pl
+
+ +---------------------------+--------------------------------+-------+
+ | Nazwa programu bez        | -c nagłówek strony man         | nazwa |
+ | rozszerzenia(sekcja)      |                                |       |
+ +---------------------------+--------------------------------+-------+
+ | Treść                                                              |
+ |                                                                    |
+ |                                                                    |
+ |                                                                    |
+ +---------------------------+--------------------------------+-------+
+ | -r wersja programu        | -d data ostatniej modyfikacji  | nazwa |
+ +---------------------------+--------------------------------+-------+
+ 
+Domyślnie jako nagłówek wstawiany jest tekst 'User Contributed Perl Documentation', jako wersja programu wstawiana jest wersja Perla a data ostatniej modyfikacji jest odczytywana bezpośrednio z pliku.
+
+Sekcja jest ustawiona na sztywno i wynosi 1 dla pod2man.pl.
+
+=head1 AUTOR
+
+Piotr Rogoża L<rogoza.piotr@gmail.com>
+
+=head1 LICENCJA
+
+Program  jest  dystrybuowany  na  zasadach  licencji  GNU  General  Public License.
+
+=cut
+
